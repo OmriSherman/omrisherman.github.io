@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeoConquest</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0a0a1a;
+      color: #f5f5f5;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 640px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #FFD700;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+    .tagline {
+      font-size: 1.25rem;
+      color: #a78bfa;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+      margin-bottom: 1.5rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .feature {
+      background: #1a1a2e;
+      border: 1px solid #2a2a4a;
+      border-radius: 12px;
+      padding: 1rem;
+    }
+    .feature-title {
+      color: #FFD700;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .feature-desc {
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+    a { color: #a78bfa; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>GeoConquest</h1>
+    <p class="tagline">Conquer the world, one country at a time.</p>
+    <p>
+      GeoConquest is a geography trivia adventure where you build your empire by mastering
+      flags, capitals, shapes, and borders from around the globe.
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-title">6 Quiz Modes</div>
+        <div class="feature-desc">Flags, Capitals, Shapes, Borders, Millionaire &amp; Nightmare</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">World Map</div>
+        <div class="feature-desc">Claim countries and grow your empire</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">Achievements</div>
+        <div class="feature-desc">Unlock avatars, flags, and rare rewards</div>
+      </div>
+      <div class="feature">
+        <div class="feature-title">Leaderboards</div>
+        <div class="feature-desc">Compete globally with other conquerors</div>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2026 GeoConquest &middot;
+      <a href="mailto:contact@geoconquest.app">Contact</a>
+    </footer>
+  </div>
+</body>
+</html>
