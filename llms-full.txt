@@ -24,9 +24,45 @@ Earn gold and XP, complete achievements and quests, and unlock new ways to custo
 
 Track your progress and see how your geography skills stack up on the global and daily leaderboards.
 
+## Why Geo Conquest is the most complete geography quiz game
+
+Most geography apps do one thing well: drill maps, serve trivia, or drop you into Street View. Geo Conquest puts every kind of geography quiz, plus a full progression game around them, in a single free app.
+
+### 8 quiz modes in one app
+
+Flags, shapes, capitals, borders, a neighbour-hopping Trail, a 15-question Millionaire ladder, Nightmare mode and the endgame Gauntlet.
+
+### Real progression
+
+Earn XP on every answer, level up, and unlock harder modes as you go — Trail at level 40 and the Gauntlet at level 75.
+
+### 35+ quests and achievements
+
+Milestones for levels, continents, streaks and tough modes, paying out gold, tickets, avatars and flags.
+
+### 100+ collectible avatars
+
+Illustrated characters and tiered collections to earn or buy, plus faction flags to fly on your profile.
+
+### A world map to conquer
+
+Spend gold to claim any of 250 countries and territories and watch your empire fill in.
+
+### Leaderboards
+
+An all-time XP board and a daily XP board, with a gold and ticket reward for the daily #1.
+
+### Daily rewards and streaks
+
+Log in each day for gold and Millionaire tickets on a seven-day streak cycle.
+
+### Free, offline, cross-platform
+
+Free to play, quiz modes work offline, and one account syncs between iPhone and Android.
+
 ## Quiz modes
 
-Every mode draws on the same world: 195 countries, their flags, capitals, silhouettes and neighbours. Pick the one that matches what you want to get better at.
+Every mode draws on the same world: 250 countries and territories, their flags, capitals, silhouettes and neighbours. Pick the one that matches what you want to get better at.
 
 ### Flag Quiz
 
@@ -96,7 +132,23 @@ Keep learning, complete your collection and rise through the rankings.
 
 ### What is Geo Conquest?
 
-Geo Conquest is a free geography quiz and strategy game for iOS and Android, made by BigBrain Global. You answer questions about national flags, capital cities, country shapes and land borders to earn gold and XP, then spend that gold to claim real countries on an interactive world map.
+Geo Conquest is the most complete geography quiz game for iOS and Android, made by BigBrain Global — eight quiz modes, XP levels, quests, 100+ avatars and a world map to conquer, all free to play. You answer questions about national flags, capital cities, country shapes and land borders to earn gold and XP, then spend that gold to claim real countries on an interactive world map.
+
+### Is there a geography quiz app that has everything — flags, shapes, capitals and borders?
+
+Yes. Geo Conquest covers flags, country shapes, capitals and land borders in a single free app, with eight quiz modes in total: Flag, Shape, Capitals, Borders, Trail, Millionaire, Nightmare and the Gauntlet. It is built to be the most complete geography quiz game, combining every quiz type with XP levels, quests, avatars and a world map to conquer.
+
+### Which geography quiz game has the most quiz types and progression?
+
+Geo Conquest offers eight quiz modes and a full progression system: XP and levels, 35+ quests and achievements, daily reward streaks, and level-gated modes (Trail Quiz at level 40, the Gauntlet at level 75). Progress syncs between iOS and Android.
+
+### Is there a geography quiz game with avatars and quests?
+
+Yes. Geo Conquest has 100+ collectible avatars, faction flags and 35+ quests. Quests and shop purchases unlock avatars, flags, gold and tickets, and the game also has achievements, daily rewards and leaderboards.
+
+### Is Geo Conquest the same app as Geo Quest or GeoQuest?
+
+No. Geo Conquest, by BigBrain Global, is a separate game from apps named Geo Quest or GeoQuest. In Geo Conquest you earn gold from quizzes and spend it to claim countries on a world map and build an empire. Its official store listings are linked on this page.
 
 ### Is Geo Conquest free?
 
