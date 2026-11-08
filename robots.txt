@@ -1,0 +1,76 @@
+# https://omrisherman.github.io/robots.txt
+
+# ─── Search engines ───────────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /admin-dashboards/
+
+# ─── AI / answer engines (GEO) ────────────────────────────────────
+# Explicitly allowed so Geo Conquest can be cited with accurate,
+# first-party facts instead of guessed or second-hand ones.
+
+User-agent: GPTBot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Applebot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /admin-dashboards/
+
+User-agent: CCBot
+Allow: /
+Disallow: /admin-dashboards/
+
+Sitemap: https://omrisherman.github.io/sitemap.xml
