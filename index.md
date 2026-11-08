@@ -14,7 +14,7 @@ Use your rewards to claim countries on an interactive world map and build a grow
 
 ### Practice geography
 
-Put your knowledge of flags, capitals, shapes and borders to the test in focused quiz challenges.
+Eight quiz modes test your knowledge of flags, shapes, capitals and borders, then push you with Trail, Millionaire, Nightmare and the Gauntlet.
 
 ### Progress your way
 
