@@ -1,75 +1,43 @@
 # https://omrisherman.github.io/robots.txt
+# AI crawler access policy — last updated 2026-11-08
+#
+# Policy: everything public is open to search engines and AI systems, so Geo Conquest
+# can be found and cited with accurate first-party facts. Only the private admin
+# dashboard path is excluded. To restrict an AI crawler, move it into a
+# "Disallow: /" group below — that is a business decision, not a technical one.
 
-# ─── Search engines ───────────────────────────────────────────────
-User-agent: *
+# --- Traditional search -------------------------------------------------------
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: DuckDuckBot
 Allow: /
 Disallow: /admin-dashboards/
 
-# ─── AI / answer engines (GEO) ────────────────────────────────────
-# Explicitly allowed so Geo Conquest can be cited with accurate,
-# first-party facts instead of guessed or second-hand ones.
-
-User-agent: GPTBot
-Allow: /
-Disallow: /admin-dashboards/
-
+# --- AI search / answer engines (these cite and link back to the site) --------
 User-agent: OAI-SearchBot
-Allow: /
-Disallow: /admin-dashboards/
-
 User-agent: ChatGPT-User
-Allow: /
-Disallow: /admin-dashboards/
-
-User-agent: ClaudeBot
-Allow: /
-Disallow: /admin-dashboards/
-
-User-agent: Claude-User
-Allow: /
-Disallow: /admin-dashboards/
-
 User-agent: Claude-SearchBot
-Allow: /
-Disallow: /admin-dashboards/
-
-User-agent: anthropic-ai
-Allow: /
-Disallow: /admin-dashboards/
-
+User-agent: Claude-User
 User-agent: PerplexityBot
-Allow: /
-Disallow: /admin-dashboards/
-
 User-agent: Perplexity-User
 Allow: /
 Disallow: /admin-dashboards/
 
+# --- AI training / model crawlers (currently allowed) ------------------------
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
 User-agent: Google-Extended
-Allow: /
-Disallow: /admin-dashboards/
-
-User-agent: Applebot
-Allow: /
-Disallow: /admin-dashboards/
-
 User-agent: Applebot-Extended
-Allow: /
-Disallow: /admin-dashboards/
-
-User-agent: Bingbot
-Allow: /
-Disallow: /admin-dashboards/
-
 User-agent: Amazonbot
-Allow: /
-Disallow: /admin-dashboards/
-
 User-agent: Meta-ExternalAgent
+User-agent: CCBot
 Allow: /
 Disallow: /admin-dashboards/
 
-User-agent: CCBot
+# --- Everyone else ------------------------------------------------------------
+User-agent: *
 Allow: /
 Disallow: /admin-dashboards/
 

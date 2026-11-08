@@ -9,6 +9,8 @@
   <meta name="author" content="BigBrain Global">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://omrisherman.github.io/">
+  <link rel="alternate" type="text/markdown" href="/index.md" title="Geo Conquest — Markdown version">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
@@ -64,6 +66,7 @@
         "isPartOf": { "@id": "https://omrisherman.github.io/#website" },
         "about": { "@id": "https://omrisherman.github.io/#app" },
         "primaryImageOfPage": "https://omrisherman.github.io/og-image.png",
+        "dateModified": "2026-11-08",
         "inLanguage": "en"
       },
       {
@@ -74,6 +77,10 @@
         "description": "A geography quiz and map-conquest game about flags, capitals, country shapes and borders. Earn gold and XP, claim countries on an interactive world map and compete on a global leaderboard. Free on iOS and Android.",
         "url": "https://omrisherman.github.io/",
         "image": "https://omrisherman.github.io/og-image.png",
+        "sameAs": [
+          "https://apps.apple.com/il/app/geo-conquest-trivia-game/id6775380741",
+          "https://play.google.com/store/apps/details?id=com.geoconquest.app"
+        ],
         "genre": ["Trivia", "Educational game", "Strategy game", "Geography"],
         "applicationCategory": "GameApplication",
         "applicationSubCategory": "Trivia",
@@ -101,7 +108,6 @@
         ],
         "featureList": [
           "Flag Quiz — identify a country from its national flag",
-          "Easy Flags — a gentler flag mode focused on familiar countries",
           "Shape Quiz — recognise a country from its silhouette",
           "Capitals Quiz — match capital cities to their countries",
           "Borders Quiz — find the country that shares no land border",
@@ -114,6 +120,19 @@
           "Quests, achievements and collectible avatars",
           "Offline play for quiz modes",
           "Cross-platform progress between iOS and Android"
+        ]
+      },
+      {
+        "@type": "HowTo",
+        "@id": "https://omrisherman.github.io/#howto",
+        "name": "How to claim a country in Geo Conquest",
+        "description": "The core Geo Conquest loop: answer quiz questions, earn gold and XP, spend gold to claim countries on the world map, and climb the leaderboard.",
+        "isPartOf": { "@id": "https://omrisherman.github.io/#webpage" },
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Answer", "text": "Choose a quiz mode and prove what you know about the countries of the world." },
+          { "@type": "HowToStep", "position": 2, "name": "Earn", "text": "Collect gold and XP as you solve questions and complete objectives. Perfect accuracy doubles your XP." },
+          { "@type": "HowToStep", "position": 3, "name": "Claim", "text": "Spend your gold to claim countries and expand your territory on the world map." },
+          { "@type": "HowToStep", "position": 4, "name": "Conquer", "text": "Keep learning, complete your collection and rise through the leaderboard rankings." }
         ]
       },
       {
@@ -333,8 +352,8 @@
         <h1>Turn geography knowledge into <span>empire.</span></h1>
         <p class="tagline">Geo Conquest is a free geography quiz game for iOS and Android. Answer questions about flags, capitals, country shapes and borders, earn gold and XP, then claim real countries on an interactive world map.</p>
         <div class="actions" aria-label="Download Geo Conquest">
-          <a class="store-link primary" data-mcp-action="download" data-mcp-description="Open the Geo Conquest listing on the Apple App Store" href="https://apps.apple.com/il/app/geo-conquest-trivia-game/id6775380741" rel="noopener">Download for iPhone</a>
-          <a class="store-link secondary" data-mcp-action="download" data-mcp-description="Open the Geo Conquest listing on Google Play" href="https://play.google.com/store/apps/details?id=com.geoconquest.app" rel="noopener">Get it on Google Play</a>
+          <a class="store-link primary" data-mcp-action="download" aria-label="Download Geo Conquest for iPhone on the Apple App Store" data-mcp-description="Open the Geo Conquest listing on the Apple App Store" href="https://apps.apple.com/il/app/geo-conquest-trivia-game/id6775380741" rel="noopener">Download for iPhone</a>
+          <a class="store-link secondary" data-mcp-action="download" aria-label="Get Geo Conquest for Android on Google Play" data-mcp-description="Open the Geo Conquest listing on Google Play" href="https://play.google.com/store/apps/details?id=com.geoconquest.app" rel="noopener">Get it on Google Play</a>
         </div>
         <div class="loop" aria-label="How the game works"><span>Answer</span><span>Earn gold</span><span>Claim countries</span><span>Climb the leaderboard</span></div>
       </div>
@@ -355,12 +374,11 @@
     </section>
 
     <section aria-labelledby="modes-title">
-      <div class="section-kicker">Nine ways to play</div>
+      <div class="section-kicker">Eight ways to play</div>
       <h2 id="modes-title">Quiz modes</h2>
       <p class="lede">Every mode draws on the same world: 195 countries, their flags, capitals, silhouettes and neighbours. Pick the one that matches what you want to get better at.</p>
       <div class="modes">
         <article class="mode"><img class="ico" src="img/flags.png" width="58" height="58" alt="" loading="lazy"><div><h3>Flag Quiz</h3><p>Name the country from its national flag — the fastest way to start earning gold.</p></div></article>
-        <article class="mode"><img class="ico" src="img/sun.png" width="58" height="58" alt="" loading="lazy"><div><h3>Easy Flags</h3><p>A gentler flag round built around more familiar countries, for players still learning the map.</p></div></article>
         <article class="mode"><img class="ico" src="img/shape.png" width="58" height="58" alt="" loading="lazy"><div><h3>Shape Quiz</h3><p>Identify a country from its silhouette alone, with no flag, name or capital to help you.</p></div></article>
         <article class="mode"><img class="ico" src="img/building.png" width="58" height="58" alt="" loading="lazy"><div><h3>Capitals Quiz</h3><p>Match capital cities to their countries, from the obvious ones to the ones that catch everybody out.</p></div></article>
         <article class="mode"><img class="ico" src="img/border.png" width="58" height="58" alt="" loading="lazy"><div><h3>Borders Quiz</h3><p>Spot the country that does <em>not</em> share a land border with the others. Harder than it sounds.</p></div></article>
@@ -391,7 +409,7 @@
         <div><dt>Genre</dt><dd>Geography trivia &amp; strategy</dd></div>
         <div><dt>Platforms</dt><dd>iOS and Android</dd></div>
         <div><dt>Price</dt><dd>Free, with optional purchases</dd></div>
-        <div><dt>Quiz modes</dt><dd>9</dd></div>
+        <div><dt>Quiz modes</dt><dd>8</dd></div>
         <div><dt>Offline play</dt><dd>Yes, for quiz modes</dd></div>
         <div><dt>Ads</dt><dd>Opt-in only, never mid-quiz</dd></div>
         <div><dt>Cross-platform saves</dt><dd>Yes, one account</dd></div>
@@ -439,5 +457,43 @@
       © 2026 Geo Conquest · BigBrain Global
     </div>
   </footer>
+  <script>
+  // WebMCP (draft, browser-dependent): expose two READ-ONLY tools to browsing agents.
+  // No-ops everywhere the API is missing. Nothing here submits, buys or changes state.
+  (function () {
+    var mc = (typeof navigator !== 'undefined' && navigator.modelContext) ||
+             (typeof document !== 'undefined' && document.modelContext);
+    if (!mc || typeof mc.registerTool !== 'function') return;
+    var text = function (o) { return { content: [{ type: 'text', text: JSON.stringify(o) }] }; };
+    try {
+      mc.registerTool({
+        name: 'get_geo_conquest_download_links',
+        description: 'Get the official App Store and Google Play links for Geo Conquest, a free geography quiz game. Read-only.',
+        inputSchema: { type: 'object', properties: { platform: { type: 'string', enum: ['ios', 'android', 'both'], description: 'Which store link to return' } } },
+        annotations: { readOnlyHint: true },
+        execute: function (args) {
+          var p = (args && args.platform) || 'both';
+          var all = { ios: 'https://apps.apple.com/il/app/geo-conquest-trivia-game/id6775380741', android: 'https://play.google.com/store/apps/details?id=com.geoconquest.app' };
+          return text(p === 'both' ? all : (function () { var o = {}; o[p] = all[p]; return o; })());
+        }
+      });
+      mc.registerTool({
+        name: 'get_geo_conquest_facts',
+        description: 'Get verified facts about Geo Conquest: developer, platforms, price, quiz modes, unlock levels and ad policy. Read-only.',
+        inputSchema: { type: 'object', properties: {} },
+        annotations: { readOnlyHint: true },
+        execute: function () {
+          return text({
+            name: 'Geo Conquest', developer: 'BigBrain Global', platforms: ['iOS', 'Android'], price: 'Free with optional in-app purchases',
+            quizModes: ['Flag Quiz', 'Shape Quiz', 'Capitals Quiz', 'Borders Quiz', 'Trail Quiz', 'Millionaire Quiz', 'Nightmare Mode', 'The Gauntlet'],
+            unlocks: { capitals: 'Shop upgrade', borders: 'Shop upgrade', trail: 'Player level 40', gauntlet: 'Player level 75' },
+            ads: 'Opt-in rewarded ads only; never during a quiz',
+            fullFacts: 'https://omrisherman.github.io/llms.txt'
+          });
+        }
+      });
+    } catch (e) { /* unsupported build — the page works normally without it */ }
+  })();
+  </script>
 </body>
 </html>
