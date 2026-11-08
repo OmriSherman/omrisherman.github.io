@@ -22,7 +22,8 @@ Served by GitHub Pages at <https://omrisherman.github.io/>.
 | `robots.txt` | Allows search and AI crawlers; disallows `/admin-dashboards/`; points to the sitemap |
 | `sitemap.xml` | The four indexable URLs — update `lastmod` when a page changes |
 | `llms.txt` | First-party factual summary for AI answer engines, so they cite correct facts |
-| `og-image.png` | 1200×630 social share card |
+| `og-image.png` | 1200×630 social share card, in the app palette (`#0a0a1a` / `#1a1a2e` / `#ffd700`) |
+| `img/` | Pixel-art icons copied from the app's `assets/avatars/` — re-copy if the art changes |
 | `favicon.ico`, `icon-192.png`, `icon-512.png`, `apple-touch-icon.png` | Site icons |
 
 ## Keeping facts straight
