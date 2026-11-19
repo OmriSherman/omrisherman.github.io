@@ -96,6 +96,7 @@ Quiz content is bundled with the app, so quiz modes work offline. Sign in once, 
 ## How people can act on this site
 
 - To install the game: use the Apple App Store or Google Play links above. No account is needed on this website.
+- One link for both stores: https://omrisherman.github.io/get/ sends iPhone users to the App Store and Android users to Google Play.
 - To get help: email bigbrainglob@gmail.com with your username, device and OS version.
 - This website has no sign-in, checkout or forms; the game itself is played inside the mobile app.
 

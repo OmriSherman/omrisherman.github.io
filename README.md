@@ -14,6 +14,7 @@ Served by GitHub Pages at <https://omrisherman.github.io/>.
 | `privacy.html` | `/privacy.html` | Privacy policy (linked from both app store listings) |
 | `tos.html` | `/tos.html` | Terms of service |
 | `404.html` | any unknown path | Branded not-found page |
+| `get/index.html` | `/get/` | **Smart store link** — one URL for both stores. Redirects iPhone/iPad to the App Store and Android to Google Play; desktop sees both buttons and a QR code. `noindex`, not in the sitemap |
 
 ## SEO / GEO files
 
@@ -52,3 +53,10 @@ and update `lastmod` in `sitemap.xml`. Re-check `llms.txt` at least quarterly.
 `get_geo_conquest_facts`) when a browser exposes `navigator.modelContext` / `document.modelContext`.
 WebMCP is a draft spec; the script feature-detects and does nothing otherwise. The site has no
 forms, sign-in or checkout, so there is nothing consequential for an agent to submit.
+
+## The unified download link
+
+Share **https://omrisherman.github.io/get/** anywhere you would otherwise paste a store link
+(Instagram bio, posts, email, QR codes). To change a store URL, edit the two `href`s in
+`get/index.html` — every place the link is already shared keeps working.
+`get/geo-conquest-qr.png` is a print-ready QR code for that address.
